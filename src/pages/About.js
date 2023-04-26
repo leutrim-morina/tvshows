@@ -1,0 +1,21 @@
+import React from 'react'
+
+function About() {
+  return (
+    <div className='About'>
+    <h1>About Our Mission</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis id metus eget sagittis. Proin in orci ac arcu ullamcorper tincidunt eu at nisi. Duis vulputate ipsum a finibus pretium. Fusce at nisi velit. Quisque auctor purus diam. Sed interdum eu tellus placerat pretium. Proin interdum sagittis lorem non suscipit. Etiam rutrum consequat neque, nec tristique neque imperdiet ac. Phasellus ac ligula tempor, ullamcorper felis non, cursus ligula. Vivamus ultricies erat eu nibh vestibulum, ac vulputate felis ultricies. Duis faucibus lacus nulla, vel volutpat lacus varius ut. Mauris commodo et ipsum eget varius. Maecenas tellus purus, semper in maximus convallis, mollis vulputate nibh. Sed sit amet mollis diam, at tempor felis. Curabitur ac nisi a urna imperdiet cursus vitae vel ipsum. Pellentesque et consequat arcu.
+
+      Vivamus a diam a nibh mollis commodo sit amet eget nisl. Nunc in metus a leo pellentesque pretium eu consequat libero. Morbi rutrum, leo et dapibus eleifend, lorem libero commodo massa, non maximus eros magna id sapien. Curabitur placerat metus in convallis dictum. Aliquam magna sapien, mattis congue nulla eget, laoreet dignissim neque. Vestibulum tortor odio, egestas nec dui at, bibendum efficitur ligula. Integer elementum luctus eros vitae tempor. Fusce imperdiet mauris semper faucibus maximus. Quisque pretium dolor a ante malesuada, vel ultrices dolor bibendum. Quisque sit amet lobortis nunc. In maximus urna vitae elit porta, vel iaculis massa iaculis. Mauris sed justo non libero faucibus scelerisque. Phasellus consectetur libero vitae mi hendrerit, vitae lacinia mauris placerat. Vivamus nec massa lorem. Quisque consequat elit a augue tristique, et imperdiet sapien rutrum. Quisque id iaculis ligula.
+
+      Integer molestie ligula quis enim sodales tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce turpis mi, cursus vel eros sed, mollis dapibus est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed venenatis tempus erat, vel sagittis felis sodales nec. Sed suscipit mi laoreet mi blandit, in ultricies ex ullamcorper. Mauris aliquam ut ex eu faucibus. Curabitur faucibus est vel tortor molestie, vel porta nisl vulputate. In hac habitasse platea dictumst. Nullam finibus dolor lacus, non sollicitudin justo euismod auctor. Nulla facilisi. Nullam pretium lectus tincidunt erat efficitur porta. Duis at ante varius, vestibulum arcu eget, faucibus diam. Donec sed volutpat enim. Aenean hendrerit convallis placerat.
+
+      Fusce elementum, augue quis pulvinar consequat, ante purus gravida erat, ut condimentum justo odio in metus. Praesent pretium, est in dapibus placerat, ipsum libero venenatis purus, nec molestie lacus lacus id nisl. Etiam aliquet vulputate felis id elementum. Vivamus vitae diam id dolor consequat aliquam non vitae erat. Aliquam in ante ac orci varius feugiat. Quisque vehicula rhoncus laoreet. Integer tincidunt mauris sed tellus interdum scelerisque. Morbi ultricies tellus non nibh mattis porta eget quis felis. Ut eu tortor lorem. Etiam aliquet volutpat mi, vel interdum sapien congue a. Cras vulputate a quam non congue.
+
+      Sed accumsan, nunc vitae efficitur porttitor, velit risus hendrerit arcu, ac venenatis nibh neque eu nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum convallis aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In gravida risus at nisi dignissim sodales. Donec ultrices pellentesque nisi, vitae fermentum tellus rhoncus sed. Sed non sapien ac ex auctor fermentum. In lorem ex, consequat id nibh vitae, laoreet varius lacus. Nam sit amet elit nulla. Sed malesuada ante nec purus interdum, id pellentesque sapien ornare. Proin a eros elit. Fusce porttitor, libero vel accumsan accumsan, nisi risus porttitor quam, quis elementum neque sapien eu neque. In hac habitasse platea dictumst. Nullam nec rutrum quam.
+      </p>
+      </div>
+  )
+}
+
+export default About
