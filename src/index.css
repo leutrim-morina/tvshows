@@ -15,8 +15,8 @@ code {
 }
 .show-list {
   display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin: 0 auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 10px;
   column-gap: 4px;
 
 }
