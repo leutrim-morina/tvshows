@@ -1,1 +1,1 @@
-TVSHOWS eshte aplikacion i ndertuar me REACT ne kuader te BOOTCAMPIT ` PERPROGRAMERA `. Aplikacioni ka nevoj per updates ende nuk e ka arritur fazen finale Disa gjera ne Dizajn dhe pak CODE. Ky eshte versioni beta vetem per DESKTOP
+TVSHOWS eshte aplikacion i ndertuar me REACT ne kuader te BOOTCAMPIT ` PERPROGRAMERA `.  
