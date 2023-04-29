@@ -13,7 +13,6 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between;
   align-items: left;
   padding: 0 50px;
 }
@@ -104,4 +103,115 @@
   color:white;
   font-size: 24px;
   
+}
+@media only screen and (min-width: 320px) { 
+  .navbar {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width:90%;
+    background-color: darkslategray;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin: 0px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0 50px;
+  }
+  
+  .navbar-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+  }
+  .navbar-toggle-icon {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 2px;
+    position: relative;
+    transform-origin: center;
+    transition: all 0.3s ease;
+    color:white;
+  }
+  
+  .navbar-toggle-icon:before,
+  .navbar-toggle-icon:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-toggle-icon:before {
+    transform: translateY(-8px);
+  }
+  
+  .navbar-toggle-icon:after {
+    transform: translateY(8px);
+  }
+  
+  .navbar-toggle.active .navbar-toggle-icon {
+    background-color: transparent;
+  }
+  
+  .navbar-toggle.active .navbar-toggle-icon:before {
+    transform: translateY(0) rotate(45deg);
+  }
+  
+  .navbar-toggle.active .navbar-toggle-icon:after {
+    transform: translateY(0) rotate(-45deg);
+  }
+  
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar-menu.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .navbar-item {
+    color: #333;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-item:hover {
+    background-color: #eee;
+  }
+  #navicon {
+    color:white;
+    font-size: 24px;
+    
+  }
+
+
 }

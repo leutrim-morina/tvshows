@@ -27,6 +27,14 @@ code {
   
 
 }
+
+.show-data-nohover {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  
+
+}
 .show-data:hover {
   border: 2px solid black;
   padding: auto 40px;
@@ -106,4 +114,368 @@ code {
 .About p {
   font-size: 18px;
   text-align: left;
+}
+@media only screen and (min-width: 320px) { 
+
+  .show-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 10px;
+    column-gap: 4px;
+  
+  }
+  .show-data {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .show-data-nohover {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    
+  
+  }
+  .show-data:hover {
+    border: 2px solid black;
+    height: auto;
+    background-color: #333;
+  }
+  .show-data #alinks:hover {
+    background-color: white;
+    color: black;
+  }
+  #alinks {
+    text-decoration: none;
+    background-color: #331c1c;
+    color:white;
+    margin-top: 3px;
+    padding: 15px;
+  }
+  .search {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  .search input {
+    width: 300px;
+    height:50px;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    
+  }
+  .search input:hover {
+    background-color: white;
+    color:black;
+  
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+  
+  }
+  
+  .pagination a{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    border: 2px solid #333;
+    text-decoration: none;
+  
+  }
+  .pagination span{
+    font-size: 20px;
+  
+  }
+
+
+}
+@media only screen and (min-width: 768px) { 
+
+  .show-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10px;
+    column-gap: 4px;
+  
+  }
+  .show-data {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .show-data-nohover {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    
+  
+  }
+  .show-data:hover {
+    border: 2px solid black;
+    height: auto;
+    background-color: #333;
+  }
+  .show-data #alinks:hover {
+    background-color: white;
+    color: black;
+  }
+  #alinks {
+    text-decoration: none;
+    background-color: #331c1c;
+    color:white;
+    margin-top: 3px;
+    padding: 15px;
+  }
+  .search {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  .search input {
+    width: 300px;
+    height:50px;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    
+  }
+  .search input:hover {
+    background-color: white;
+    color:black;
+  
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+  
+  }
+  
+  .pagination a{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    border: 2px solid #333;
+    text-decoration: none;
+  
+  }
+  .pagination span{
+    font-size: 20px;
+  
+  }
+
+
+}
+@media only screen and (min-width: 1040px) { 
+
+  .show-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 10px;
+    column-gap: 4px;
+  
+  }
+  .show-data {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .show-data-nohover {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    
+  
+  }
+  .show-data:hover {
+    border: 2px solid black;
+    height: auto;
+    background-color: #333;
+  }
+  .show-data #alinks:hover {
+    background-color: white;
+    color: black;
+  }
+  #alinks {
+    text-decoration: none;
+    background-color: #331c1c;
+    color:white;
+    margin-top: 3px;
+    padding: 15px;
+  }
+  .search {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  .search input {
+    width: 700px;
+    height:50px;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    
+  }
+  .search input:hover {
+    background-color: white;
+    color:black;
+  
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+  
+  }
+  
+  .pagination a{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    border: 2px solid #333;
+    text-decoration: none;
+  
+  }
+  .pagination span{
+    font-size: 20px;
+  
+  }
+
+
+}
+@media only screen and (min-width: 1300px) { 
+
+  .show-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 10px;
+    column-gap: 4px;
+  
+  }
+  .show-data {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+  
+  }
+  
+  .show-data-nohover {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    
+  
+  }
+  .show-data:hover {
+    border: 2px solid black;
+    height: auto;
+    background-color: #333;
+  }
+  .show-data #alinks:hover {
+    background-color: white;
+    color: black;
+  }
+  #alinks {
+    text-decoration: none;
+    background-color: #331c1c;
+    color:white;
+    margin-top: 3px;
+    padding: 15px;
+  }
+  .search {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+  }
+  .search input {
+    width: 800px;
+    height:50px;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    
+  }
+  .search input:hover {
+    background-color: white;
+    color:black;
+  
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+  
+  }
+  
+  .pagination a{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    border: 2px solid #333;
+    text-decoration: none;
+  
+  }
+  .pagination span{
+    font-size: 20px;
+  
+  }
+
+
 }

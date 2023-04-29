@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import Showsdetails from './Showsdetails';
 import axios from 'axios';
 
 function Tvshows() {
@@ -30,11 +32,11 @@ const [page, setPage] = useState(1)
       {shows.map(show => (
         <div key={show.id} className="show-data">
           <img src={show.image?.medium ?? "https://static.thenounproject.com/png/1554490-200.png"}  />
-          <h2>{show.name}</h2>
+          <h2 class="text-primary">{show.name}</h2>
           <p>{show.genres} - {show.language}  </p>
           <p id="dateandtime">{show.schedule.days} , {show.schedule.time}  on <b>{show.network && `${show.network.name}`}</b></p>
           <p>Show Rating : {show.rating.average}</p>
-          <a id="alinks" href={show.url}>View more info</a>
+          <Link  id="alinks" to={`/shows/${show.id}`}>View more info</Link>
           
         </div>
       ))}

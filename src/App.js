@@ -5,6 +5,8 @@ import Tvshows from './pages/Tvshows';
 import Home from './pages/Home';
 import About from './pages/About';
 import Privacypolicy from './pages/Privacypolicy';
+import Showsdetails from './pages/Showsdetails';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tvshows" element={< Tvshows />} />
+          <Route path="/shows/:id" element={<Showsdetails />} />
           <Route path="/about" element={<About />} />
           <Route path="/Privacypolicy" element={<Privacypolicy />} />
         </Routes>

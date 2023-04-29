@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'; 
+import { Link, useParams} from "react-router-dom";
 import axios from 'axios';
 
 
 function Home() {
+  const { page, id } = useParams();
   const [search , setSearch] = useState('')
     const [data, setData] = useState()
-
+    
+  
     const getSearch = (str) => {
       setSearch(str)
     } 
@@ -36,10 +39,10 @@ function Home() {
           {data && data.map( dat => (
             <div key={dat.show.id} className="show-data">
               <img src={dat.show.image?.medium ?? "https://static.thenounproject.com/png/1554490-200.png"}  />
-              <h2>{dat.show.name}</h2>
+              <h2 class="text-primary">{dat.show.name}</h2>
               <p>{dat.show.genres} - {dat.show.language}  </p>
-              <p >{dat.show.schedule.days} , {dat.show.schedule.time}  on <b>{dat.show.network && `${dat.show.network.name}`}</b></p>
-              <a id="alinks" href={dat.show.url}>View more info</a>
+              <p>Show Rating : {dat.show.rating.average}</p>
+              <Link  id="alinks" to={`/shows/${dat.show.id}`}>View more info</Link>
               
             </div>
           ))}
