@@ -32,7 +32,7 @@ function Home() {
     <>
     <div className="search">
             <h1>TVSHOWS.COM</h1><br />
-            <h3>Get instant information over 3000 Series in the world</h3>
+            <h3>Get instant information over <b>30,000+</b> TV Shows all around the world!</h3>
             <input type="search"   onKeyUp={handleSearch} placeholder='Search your fav TV Show ...' />
         </div>
       <div className="show-list">
